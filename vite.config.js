@@ -24,6 +24,7 @@ export default defineConfig({
   },
   server: {
     port: 5173,
-    open: true,
+    host: true, // Expose on network
+    open: false, // Don't try to open browser
   },
 });
