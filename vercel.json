@@ -1,4 +1,5 @@
 {
+  "installCommand": "echo 'Skipping install - using pre-built dist'",
   "buildCommand": "echo 'Using pre-built dist folder'",
   "outputDirectory": "dist",
   "framework": null,
